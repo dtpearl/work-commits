@@ -4,7 +4,7 @@
 cd /Users/davidpearl/Documents/repos/learning/work-commits
 
 # Update the text file
-echo "New content" > filename.txt
+echo "New content" > commit-log.txt
 
 # Add the file to the staging area
 git add .
