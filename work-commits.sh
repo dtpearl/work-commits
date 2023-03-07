@@ -1,4 +1,5 @@
 #!/bin/bash
+projectDir=$(pwd)
 
 # Navigate to the repository directory
 cd /Users/davidpearl/Documents/repos/learning/work-commits
@@ -14,3 +15,5 @@ git commit -m "Updated commit-log.txt"
 
 # Push the changes to the remote repository
 git push
+
+cd "$projectDir"
