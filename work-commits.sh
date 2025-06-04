@@ -2,7 +2,7 @@
 projectDir=$(pwd)
 timestamp=$(date +%Y-%m-%d_%H:%M:%S_%Z)
 # Navigate to the repository directory
-cd /Users/davidpearl/Documents/repos/learning/work-commits
+cd /Users/davidpearl/development/tools/work-commits
 
 # Update the text file
 echo "New work commit - $timestamp" >> commit-log.txt
